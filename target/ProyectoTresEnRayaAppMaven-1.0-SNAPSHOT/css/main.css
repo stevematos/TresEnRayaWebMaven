@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/05/2019, 12:14:28 AM
+    Author     : steve
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.tictactoe {
+    margin: 70px auto 0;
+    border-collapse: collapse;
+    border: 1px hidden;
+}
+
+.tictactoe td {
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 70px;
+
+}
+
+h1 {
+  text-align: center;
+  color:	 #ffff1a;
+  font-size: 60px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.btn {
+  padding: 18px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.big {
+  font-size: 1.4em;
+}
+
+.conteiner-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px; /* demo only */
+}
+
+.custom-dropdown select {
+  background-color: #1abc9c;
+  color: #fff;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em; 
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
+
+#winner {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 25px;
+}

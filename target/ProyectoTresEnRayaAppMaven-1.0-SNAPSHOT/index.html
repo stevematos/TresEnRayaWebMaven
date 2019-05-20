@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css?family=Happy+Monkey" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <h1>Tres en Raya</h1>
+    <div class="conteiner-button ">
+      <button type="button" class="btn blue" id="btn-automatico">Jugada Automatica</button>
+        <div class="custom-dropdown big">
+          <select class="select" id="select-type">
+            <option value="max_min">Max Min</option>
+            <option value="alpha_beta">Poda Alpha Beta</option>
+            <option value="aplha_beta_iterativo">Poda Alpha Beta Iterativo </option>
+          </select>
+        </div>
+    </div>
+    <h3 id="respuesta">Comenzando</h3>
+    <table class="tictactoe tictactoe-js">
+      <tbody>
+      <tr>
+        <td id="c1"></td>
+        <td id="c2"></td>
+        <td id="c3"></td>
+      </tr>
+
+      <tr>
+        <td id="c4"></td>
+        <td id="c5"></td>
+        <td id="c6"></td>
+      </tr>
+
+      <tr>
+        <td id="c7"></td>
+        <td id="c8"></td>
+        <td id="c9"></td>
+      </tr>
+
+    </tbody>
+    </table>
+    <div id="result">
+      <h3 id="winner">A JUGAR</h3>
+    </div>
+    <div class="conteiner-button" >
+      <button type="button" class="btn red" id="btn-reset" >REINICIAR</button>
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
